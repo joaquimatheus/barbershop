@@ -143,6 +143,7 @@ hr {
     display: flex;
     flex-direction: column;
     align-items: center;
+    width: 100vh;
 }
 
 .col-about > h1 {
@@ -160,6 +161,21 @@ hr {
 
 .col-about article {
     padding: 0.5em;
+}
+
+.col-about p > span {
+    display: block;
+    font-weight: bold;
+    padding-top: 0.5em;
+}
+
+.col-about p > span:nth-child(3) {
+    padding-bottom: 0.5em;
+}
+
+.opening-hours {
+    margin: 3em 0;
+    font-size: 1.4em;
 }
 
 @media screen and (max-width: 600px) {
