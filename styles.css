@@ -178,6 +178,32 @@ hr {
     font-size: 1.4em;
 }
 
+footer {
+    margin-top: 15em;
+    display: flex;
+    background-color: #222;
+    justify-content: space-between;
+}
+
+footer div {
+    padding: 1em;
+}
+
+footer > img {
+    width: 70px;
+    height: 70px;
+    padding: 1em;
+}
+
+footer div > p {
+    color: white;
+}
+
+footer div > hr {
+    margin-bottom: 0.5em;
+    border: 2px solid white;
+}
+
 @media screen and (max-width: 600px) {
     nav {
         display: block;
