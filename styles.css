@@ -100,11 +100,14 @@ section {
     background-color: #F9F7F1;
     padding: 50px;
     border-radius: 35px;
+    display: flex;
+    align-items: center;
 }
 
 .header-promo {
     font-weight: 900;
     font-size: 2.8em;
+    margin-right: 0.9em;
 }
 
 hr {
@@ -112,9 +115,52 @@ hr {
 }
 
 .body-promo {
-    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0.2em 0;
 }
 
+.body-promo h3 {
+    font-size: 2em;
+    padding: 0.3em 0;
+}
+
+.body-promo p {
+    font-size: 1.4em;
+}
+
+.row-about {
+    display: flex;
+    justify-content: space-between;
+    gap: 5em;
+}
+
+.col-about {
+    background-color: #fffcf2;
+    padding: 50px;
+    border-radius: 35px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.col-about > h1 {
+    padding: 0.5em;
+}
+
+.col-about img {
+    width: 100%;
+    height: 300px;
+    background-color: #f7ede2;
+    border: 2px solid black;
+    border-radius: 1em;
+    margin-bottom: 1em;
+}
+
+.col-about article {
+    padding: 0.5em;
+}
 
 @media screen and (max-width: 600px) {
     nav {
